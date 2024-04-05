@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-
+// Francisco Costa 
 import EditScreenInfo from '@/components/EditScreenInfo';
 import { Text, View } from '@/components/Themed';
 
