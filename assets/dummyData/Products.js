@@ -1,10 +1,11 @@
-{
-    "products": [
+import dogFoodImage from '../images/dogFood.jpg';
+
+export const products = [
       {
         "id": 1,
         "title": "Premium Dog Food",
         "price": 29.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 100,
         "categories": ["Dog Food", "Premium"]
       },
@@ -12,7 +13,7 @@
         "id": 2,
         "title": "Catnip Toy",
         "price": 9.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 50,
         "categories": ["Cat Toy", "Catnip"]
       },
@@ -20,7 +21,7 @@
         "id": 3,
         "title": "Bird Seed Mix",
         "price": 7.49,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 30,
         "categories": ["Bird Food", "Seed"]
       },
@@ -28,7 +29,7 @@
         "id": 4,
         "title": "Rabbit Hutch",
         "price": 99.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 20,
         "categories": ["Rabbit Accessories", "Housing"]
       },
@@ -36,7 +37,7 @@
         "id": 5,
         "title": "Leather Dog Collar",
         "price": 19.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 50,
         "categories": ["Dog Accessories", "Collar"]
       },
@@ -44,7 +45,7 @@
         "id": 6,
         "title": "Fish Tank Decor",
         "price": 14.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 40,
         "categories": ["Aquarium Accessories", "Decoration"]
       },
@@ -52,7 +53,7 @@
         "id": 7,
         "title": "Small Animal Cage",
         "price": 39.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 25,
         "categories": ["Small Animal Accessories", "Cage"]
       },
@@ -60,7 +61,7 @@
         "id": 8,
         "title": "Hay Bale",
         "price": 12.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 60,
         "categories": ["Rabbit Food", "Hay"]
       },
@@ -68,7 +69,7 @@
         "id": 9,
         "title": "Hamster Wheel",
         "price": 8.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 35,
         "categories": ["Hamster Accessories", "Exercise"]
       },
@@ -76,7 +77,7 @@
         "id": 10,
         "title": "Squeaky Mouse Toy",
         "price": 5.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 55,
         "categories": ["Cat Toy", "Mouse"]
       },
@@ -84,7 +85,7 @@
         "id": 11,
         "title": "Bird Cage",
         "price": 59.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 15,
         "categories": ["Bird Accessories", "Cage"]
       },
@@ -92,7 +93,7 @@
         "id": 12,
         "title": "Dog Chew Bones",
         "price": 11.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 45,
         "categories": ["Dog Treats", "Chew"]
       },
@@ -100,7 +101,7 @@
         "id": 13,
         "title": "Scratching Post",
         "price": 24.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 30,
         "categories": ["Cat Accessories", "Scratching"]
       },
@@ -108,7 +109,7 @@
         "id": 14,
         "title": "Turtle Food",
         "price": 6.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 40,
         "categories": ["Reptile Food", "Turtle"]
       },
@@ -116,7 +117,7 @@
         "id": 15,
         "title": "Dog Bed",
         "price": 49.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 20,
         "categories": ["Dog Accessories", "Bed"]
       },
@@ -124,7 +125,7 @@
         "id": 16,
         "title": "Fish Tank Filter",
         "price": 29.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 25,
         "categories": ["Aquarium Accessories", "Filter"]
       },
@@ -132,7 +133,7 @@
         "id": 17,
         "title": "Lizard Heat Lamp",
         "price": 17.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 30,
         "categories": ["Reptile Accessories", "Heating"]
       },
@@ -140,7 +141,7 @@
         "id": 18,
         "title": "Dog Training Clicker",
         "price": 3.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 60,
         "categories": ["Dog Accessories", "Training"]
       },
@@ -148,7 +149,7 @@
         "id": 19,
         "title": "Flea and Tick Collar",
         "price": 15.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 40,
         "categories": ["Pet Care", "Flea & Tick"]
       },
@@ -156,10 +157,8 @@
         "id": 20,
         "title": "Treat Dispensing Ball",
         "price": 7.99,
-        "image": "https://via.placeholder.com/300",
+        "image": dogFoodImage,
         "quantity": 50,
         "categories": ["Interactive Toy", "Treat"]
       }
     ]
-  }
-  
