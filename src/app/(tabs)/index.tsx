@@ -3,18 +3,14 @@ import { StyleSheet, Text, View, Image } from 'react-native';
 import EditScreenInfo from '@/src/components/EditScreenInfo';
 import Colors from '@/src/constants/Colors';
 import { products } from '@/assets/dummyData/Products';
-
+import CardProduct from '@/src/components/Products/CardProduct';
 
 export default function TabOneScreen() {
   return (
     <View style={styles.container}>
       {
         products.map((product) => (
-          <View key={product.id} style={styles.itemContainer}>
-            <Image source={product.image} style={styles.image} />
-            <Text style={styles.title}>{product.title}</Text>
-            <Text style={styles.price}>${product.price}</Text>
-          </View>
+          <CardProduct key={product.id} product={product} />
         ))
       }
     </View>
